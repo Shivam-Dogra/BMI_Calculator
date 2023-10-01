@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+.heading{
+    font-family: 'Young Serif', serif;
+    font-size: 50px;
+    color:coral
+}
+
+body{
+    background-color: rgb(235, 222, 217);
+}
+
+label[for="height"], label[for="weight"] {
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+#height, #weight{
+    border: 2.5px solid rgb(188, 181, 181);
+    font-family: 'Source Code Pro', monospace;
+}
+
+#bmi-btn{
+    font-family: 'Source Code Pro', monospace;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(217, 109, 70);
+    color: white;
+    font-size: 15px;
+    border: 2px solid  rgb(222, 73, 19);
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+
+.bmi-results{
+    margin-top: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    color:rgb(243, 73, 11);
+    font-weight: bold;  
+}
